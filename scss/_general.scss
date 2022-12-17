@@ -11,13 +11,11 @@ img{
     height: 100%;
 }
 body{
+    font-family:"Gilroy-Light";
     display: flex;
     flex-direction: column;
     height: 100%;
     margin: 0;
-    font-family:"Gilroy-Light";
-    font-weight: var();
-    background-color: var();
 }
 .site-main{
     flex-grow: 1;

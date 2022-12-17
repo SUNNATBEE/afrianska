@@ -1,0 +1,49 @@
+.hero-section {
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: calc(50% + 370px) calc(50% + 30px);
+    padding-top:109px;
+    padding-bottom: 190px;
+}
+.hero-section__textbox {
+    max-width: 570px;
+    width: 100%;
+}
+.hero-section__title {
+    font-family: 'Galien';
+    font-size: 62px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+    user-select: none;
+}
+.hero-section__text-wrapper{
+    max-width: 400px;
+    width: 100%;
+}
+.hero-section__text {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-bottom: 71px;
+    user-select: none;
+}
+.hero-section__link {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffff;
+    background-color: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;;
+    text-decoration: none;
+    padding: 15px 48px;
+    user-select: none;
+}

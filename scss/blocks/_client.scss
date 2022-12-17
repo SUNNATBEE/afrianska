@@ -1,0 +1,101 @@
+.client{
+    padding: 192px 0;
+}
+.client__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.client__title-wrapper {
+    max-width: 358px;
+    width: 100%;
+}
+.client__title {
+    font-family: 'Gilroy';
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #316099;
+    margin-bottom: 158px;
+}
+.client__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    max-width: 380px;
+    width: 100%;
+    padding: 236px 48px 48px 48px;
+    background-color: #ffff;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+.client__card:nth-child(1){
+    margin-bottom: 100px;
+}
+.client__card-title::before{
+    position: absolute;
+    top: -30px;
+    background-image: url("../images/messengers.png");
+    background-repeat: no-repeat;
+    display: block;
+    content: "";
+    width: 240px;
+    height: 197px;
+}
+.client__card-title--letters::before{
+    position: absolute;
+    top: 48px;
+    right: 119px;
+    background-image: url("../images/boy-leters.png");
+    background-repeat: no-repeat;
+    display: block;
+    content: "";
+    width: 192px;
+    height: 132px;
+}
+.client__card-title--girls::before{
+    position: absolute;
+    top: 48px;
+    right: 109px;
+    background-image: url("../images/girl-nootebook.png");
+    background-repeat: no-repeat;
+    display: block;
+    content: "";
+    width: 192px;
+    height: 132px;
+}
+.client__card-title{
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+.client__card-text {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-bottom: 32px;
+}
+.client__card-link {
+    display: flex;
+    align-items: center;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+.client__card-link::after{
+    background-image: url("../images/right-arrow.svg");
+    background-repeat: no-repeat;
+    display: block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    margin-left: 28px;
+}
